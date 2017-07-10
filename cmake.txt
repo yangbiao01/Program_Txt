@@ -1,0 +1,23 @@
+cmake -DCMAKE_BUILD_TYPE="Release" ..
+
+
+
+
+
+cp ./src/3rd_party/apr-build/.libs/libapr-1.so* ./bin/ -rf 
+cp ./src/3rd_party/apr-util-build/.libs/libaprutil-1.so* ./bin/ -rf
+cp ./src/3rd_party/apache-log4cxx-build/src/main/cpp/.libs/liblog4cxx.so* ./bin -rf 
+cp ./src/3rd_party/expat-2.1.0/libexpat.so ./bin/
+
+
+
+
+
+
+
+
+
+
+
+
+
